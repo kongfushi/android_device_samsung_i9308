@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="negtise/android_device_samsung_i9308" path="device/samsung/i9308" remote="github" />
+  <project name="negtise/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="negtise/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="github" />
+  <project name="negtise/android_vendor_samsung_i9308" path="vendor/samsung/i9308" remote="github" />
+  <!--project name="negtise/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" /-->
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  
+</manifest>
