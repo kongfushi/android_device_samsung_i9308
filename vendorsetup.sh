@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+# This file is executed by build/envsetup.sh, and can use anything
+# defined in envsetup.sh.
+#
+# In particular, you can add lunch options with the add_lunch_combo
+# function: add_lunch_combo generic-eng
 
-ifeq ($(TARGET_DEVICE),i9308)
-
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
-endif
+add_lunch_combo cm_i9308-userdebug
